@@ -2,7 +2,7 @@
 
 ## Building
 
-Building the program requires Armin Biere's excellent SAT solver [https://github.com/arminbiere/cadical](CaDiCaL) as a dependency. Our Meson-based build system finds CaDiCaL via a pkg-config file. CaDiCaL does not provide such a file, but the following template can be adapted instead:
+Building the program requires Armin Biere's excellent SAT solver [CaDiCaL](https://github.com/arminbiere/cadical) as a dependency. Our Meson-based build system finds CaDiCaL via a pkg-config file. CaDiCaL does not provide such a file, but the following template can be adapted instead:
 
 
 ```
